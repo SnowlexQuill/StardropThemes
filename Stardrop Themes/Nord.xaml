@@ -1,0 +1,61 @@
+﻿<Styles
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:system="clr-namespace:System;assembly=System.Runtime">
+    <Style>
+        <Style.Resources>
+
+            <!-- Colors -->
+            <Color x:Key="ThemeForegroundHigh">#d08770</Color>
+            <Color x:Key="ThemeHighlight">#3b4252</Color>
+            <Color x:Key="ThemeBackgroundColour">#2e3440</Color>
+            <Color x:Key="ThemeForeground">#8fbcbb</Color>
+            <Color x:Key="UpdateBroken">#bf616a</Color>
+            <Color x:Key="UpdateUnoffical">#ebcb8b</Color>
+            <Color x:Key="ExtraColour1">#b48ead</Color>
+            <Color x:Key="GridHeader">#4c566a</Color>
+            <Color x:Key="ExtraColour2">#3abcbc</Color>
+            <Color x:Key="GridRowBack">#434c5e</Color>
+            <Color x:Key="AlternativeGridRowBack">#4c566a</Color>
+            <Color x:Key="ExtraColour3">#2e3440</Color>
+            <Color x:Key="DataGridRowForeground">#e5e9f0</Color>
+
+
+            <!-- Avalonia brushes -->
+            <SolidColorBrush x:Key="ThemeBackgroundBrush" Color="{DynamicResource ThemeBackgroundColour}" />
+            <SolidColorBrush x:Key="ThemeForegroundBrush" Color="{DynamicResource ThemeForeground}"/>
+            <SolidColorBrush x:Key="HighlightBrush" Color="{DynamicResource ThemeHighlight}" />
+            <SolidColorBrush x:Key="HighlightForegroundBrush" Color="{DynamicResource ThemeForegroundHigh}"/>
+            <SolidColorBrush x:Key="ThemeAccentBrush4" Color="{DynamicResource OrangeColor}" />
+            <SolidColorBrush x:Key="ThemeAccentBrush3" Color="{DynamicResource BrightOrangeColor}" />
+            <SolidColorBrush x:Key="ThemeControlMidBrush" Color="{DynamicResource GridRowBack}" />
+            <SolidColorBrush x:Key="ThemeControlMidHighBrush" Color="{DynamicResource DataGridRowForeground}"
+                   Opacity="0.3" />
+            <SolidColorBrush x:Key="ThemeForegroundHighBrush" Color="{DynamicResource DataGridRowForeground}" />
+            <SolidColorBrush x:Key="ThemeControlHighBrush" Color="{DynamicResource DataGridRowForeground}"
+                   Opacity="0.7" />
+            <SolidColorBrush x:Key="ThemeControlVeryHighBrush" Color="{DynamicResource DataGridRowForeground}"
+                   Opacity="0.7" />
+            <SolidColorBrush x:Key="ThemeBorderMidBrush" Color="{DynamicResource BlackColor}"
+                   Opacity="0.4" />
+            <SolidColorBrush x:Key="ThemeAccentBrush" Color="{DynamicResource DataGridRowForeground}"
+                   Opacity="0.3" />
+            <SolidColorBrush x:Key="ThemeForegroundLowBrush" Color="{DynamicResource DataGridRowForeground}"
+                   Opacity="0.3" />
+            <SolidColorBrush x:Key="ErrorBrush" Color="{DynamicResource ErrorColor}" />
+
+            <!-- Custom brushes -->
+            <SolidColorBrush x:Key="DataGridHeaderBrush" Color="{DynamicResource GridHeader}" />
+            <SolidColorBrush x:Key="DataGridRowBackground" Color="{DynamicResource GridRowBack}" />
+            <SolidColorBrush x:Key="DataGridRowForeground" Color="{DynamicResource DataGridRowForeground}" />
+            <SolidColorBrush x:Key="AlternativeDataGridRowBackground" Color="{DynamicResource AlternativeGridRowBack}" />
+            <SolidColorBrush x:Key="ComboBoxItemBackgroundBrush" Color="{DynamicResource GridHeader}" />
+            <SolidColorBrush x:Key="ComboBoxItemSelectedBackgroundBrush" Color="{DynamicResource ThemeForeground}" />
+            <SolidColorBrush x:Key="UpdateAvailableBrush" Color="{DynamicResource ThemeForeground}" />
+            <SolidColorBrush x:Key="UpdateBrokenBrush" Color="{DynamicResource UpdateBroken}" />
+            <SolidColorBrush x:Key="UpdateUnofficialBrush" Color="{DynamicResource UpdateUnoffical}" />
+
+        </Style.Resources>
+    </Style>
+
+</Styles>
