@@ -6,19 +6,19 @@
         <Style.Resources>
 
             <!-- Colors -->
-            <Color x:Key="ThemeForegroundHigh">#d08770</Color>
-            <Color x:Key="ThemeHighlight">#3b4252</Color>
-            <Color x:Key="ThemeBackgroundColour">#2e3440</Color>
-            <Color x:Key="ThemeForeground">#8fbcbb</Color>
-            <Color x:Key="UpdateBroken">#bf616a</Color>
-            <Color x:Key="UpdateUnoffical">#ebcb8b</Color>
-            <Color x:Key="ExtraColour1">#b48ead</Color>
-            <Color x:Key="GridHeader">#4c566a</Color>
-            <Color x:Key="ExtraColour2">#3abcbc</Color>
-            <Color x:Key="GridRowBack">#434c5e</Color>
-            <Color x:Key="AlternativeGridRowBack">#4c566a</Color>
-            <Color x:Key="ExtraColour3">#2e3440</Color>
-            <Color x:Key="DataGridRowForeground">#e5e9f0</Color>
+            <Color x:Key="NeonOrange">#d08770</Color>
+            <Color x:Key="OffBlack">#3b4252</Color>
+            <Color x:Key="NightBlack">#2e3440</Color>
+            <Color x:Key="NeonMint">#8fbcbb</Color>
+            <Color x:Key="NeonRed">#bf616a</Color>
+            <Color x:Key="NeonYellow">#ebcb8b</Color>
+            <Color x:Key="DarkPurple">#b48ead</Color>
+            <Color x:Key="DarkGray">#4c566a</Color>
+            <Color x:Key="GrayBlue">#3abcbc</Color>
+            <Color x:Key="PerfectGray">#434c5e</Color>
+            <Color x:Key="OffGray">#4c566a</Color>
+            <Color x:Key="DarkestGray">#2e3440</Color>
+            <Color x:Key="White">#e5e9f0</Color>
 
 
             <!-- Avalonia brushes -->
